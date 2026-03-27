@@ -27,7 +27,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 0
           plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 0
+          plugin_languages_recent_days:  150
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 300
           plugin_languages_categories: programming
@@ -36,6 +36,4 @@ jobs:
 
           plugin_lines: yes
 
-          # --- 进阶：如果你想包含私有仓库数据 ---
-          # 注意：这需要你的 Token 拥有 'repo' 权限
           config_order: base.header, languages, lines, habits
