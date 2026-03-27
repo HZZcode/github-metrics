@@ -28,17 +28,11 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, sass, scss
           plugin_languages_details: percentage, lines
           plugin_languages_sections: most-used
-          plugin_languages_limit: 8
+          plugin_languages_limit: 20
           plugin_languages_recent_load: 300
           plugin_languages_recent_days: 14
 
           plugin_lines: yes
-
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Shanghai
 
           # --- 进阶：如果你想包含私有仓库数据 ---
           # 注意：这需要你的 Token 拥有 'repo' 权限
